@@ -1,0 +1,64 @@
+body{
+    margin: 5%;
+    font-family: 'Gill Sans', 'Gill Sans MT';
+    display: grid;
+    justify-content: center;
+}
+
+.title{
+    color: #16697A;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.entry-textbox{
+    background-color: #FFA62B;
+    width: 33em;
+    height: 15em;
+    padding: 1em;
+    margin-bottom: .5em;
+    border: unset;
+    border-radius: 25px;
+}
+
+#entryForm .button{
+    border: unset;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-left: 79%;
+}
+
+.entry-textbox:focus{
+    outline: none;
+}
+
+#entries{
+    font-family: cursive;
+    margin-top: 1em;
+    background-color: #16697A;
+    padding: 2em;
+    border: unset;
+    max-width: 30em;
+    color: #EDE7E3;
+    border-radius: 20px;
+}
+.single-entry{
+    display: none;
+}
+.entries-nav{
+    padding-bottom: 1em;
+}
+.display-entry-button{
+    margin: .2em;
+}
+.display-entry-button:hover{
+    cursor: pointer;
+}
+ /*
+    - Target the div for the display-entry buttons and give it a
+        bottom padding of 1em to separate it from the entry texts
+    - Target the display-entry buttons and give each of them a margin
+        of 0.2em to separate them from one another
+    - Use the hover pseudo-class to change the cursor on the
+        display-entry buttons to "pointer" whenever they are hovered on
+ *
